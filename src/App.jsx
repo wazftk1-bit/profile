@@ -48,7 +48,7 @@ const MY_DATA = {
 
 const PROJECTS = [
   { id: 1, title: { ar: "متجر إلكتروني", en: "E-Commerce Store" }, desc: { ar: "متجر كامل بسلة مشتريات ودفع إلكتروني", en: "Full store with shopping cart and payment" }, tech: ["React", "Firebase", "Tailwind"], link: "https://subly-naw.vercel.app/", image: "public/subly.jpg" },
-  { id: 2, title: { ar: "لوحة تحكم", en: "Admin Dashboard" }, desc: { ar: "Dashboard لإدارة البيانات والمستخدمين", en: "Dashboard for managing data and users" }, tech: ["React", "Chart.js", "Firebase"], link: "https://wazftk1-bit.github.io/wazftk1/", image: "wazftk.jpg" },
+  { id: 2, title: { ar: "لوحة تحكم", en: "Admin Dashboard" }, desc: { ar: "Dashboard لإدارة البيانات والمستخدمين", en: "Dashboard for managing data and users" }, tech: ["React", "Chart.js", "Firebase"], link: "https://wazftk1-bit.github.io/wazftk1/", image: "public/wazftk.jpg" },
   { id: 3, title: { ar: "تطبيق مهام", en: "Task Manager" }, desc: { ar: "تطبيق إدارة مهام مع تذكيرات", en: "Task management app with reminders" }, tech: ["React", "LocalStorage", "CSS"], link: "https://gemablusprice-gif.github.io/gemablusprice/", image: "public/face10.jpg" },
 ]
 
