@@ -42,7 +42,7 @@ const MY_DATA = {
     ar: "مطور واجهات أمامية متخصص في بناء تجارب مستخدم استثنائية. أجيد HTML, CSS, JavaScript, React.js و Firebase.",
     en: "Front-end developer specializing in building exceptional user experiences. Proficient in HTML, CSS, JavaScript, React.js and Firebase."
   },
-  image: "public/good.jpg",
+  image: "/good.jpg",
   social: { github: "https://github.com/ahmed", linkedin: "https://linkedin.com/in/ahmed", twitter: "https://twitter.com/ahmed" }
 }
 
