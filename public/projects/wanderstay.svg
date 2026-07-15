@@ -1,0 +1,28 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Background -->
+<rect width="512" height="512" rx="120" fill="#0EA5E9"/>
+
+<!-- Location Pin -->
+<path d="M256 70C180 70 125 125 125 200C125 300 256 430 256 430C256 430 387 300 387 200C387 125 332 70 256 70Z"
+      fill="white"/>
+
+<!-- Hotel Building -->
+<rect x="180" y="170" width="152" height="150" rx="15" fill="#0EA5E9"/>
+
+<!-- Roof -->
+<path d="M160 170L256 110L352 170H160Z" fill="#0284C7"/>
+
+<!-- Windows -->
+<rect x="205" y="205" width="25" height="35" rx="5" fill="white"/>
+<rect x="243" y="205" width="25" height="35" rx="5" fill="white"/>
+<rect x="281" y="205" width="25" height="35" rx="5" fill="white"/>
+
+<!-- Door -->
+<rect x="240" y="260" width="32" height="60" rx="8" fill="white"/>
+
+<!-- Small Star -->
+<path d="M256 145L264 160L281 163L268 175L271 192L256 184L241 192L244 175L231 163L248 160L256 145Z"
+      fill="#F97316"/>
+
+</svg>
