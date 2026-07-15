@@ -54,14 +54,13 @@ const PROJECTS = [
       en: "NexaTech Digital Agency"
     },
     desc: {
-      ar: "موقع وكالة رقمية حديث يعرض الخدمات والأعمال بتصميم احترافي وسريع.",
-      en: "Modern digital agency website showcasing services and portfolio."
+      ar: "موقع وكالة رقمية حديث.",
+      en: "Modern digital agency website."
     },
     tech: ["React", "Vite", "CSS3"],
     link: "https://nexa-tech-digital-agency.vercel.app/",
-    image: "/projects/nexatech.jpg"
+    image: "/projects/nexatech.svg"
   },
-
   {
     id: 2,
     title: {
@@ -69,14 +68,13 @@ const PROJECTS = [
       en: "ChatWave Messenger"
     },
     desc: {
-      ar: "تطبيق محادثات فورية يدعم الرسائل في الوقت الحقيقي.",
-      en: "Real-time messaging application with instant chat."
+      ar: "تطبيق محادثات فورية.",
+      en: "Real-time messaging application."
     },
-    tech: ["React", "Firebase", "Realtime Database"],
+    tech: ["React", "Firebase"],
     link: "https://chat-wave-real-time-messenger.vercel.app/",
-    image: "/projects/chatwave.jpg"
+    image: "/projects/chatwave.svg"
   },
-
   {
     id: 3,
     title: {
@@ -84,14 +82,13 @@ const PROJECTS = [
       en: "Clean Text Pro"
     },
     desc: {
-      ar: "منصة SaaS لتنظيف النصوص العربية وإزالة التشكيل والرموز.",
-      en: "SaaS platform for cleaning Arabic text and removing unwanted characters."
+      ar: "منصة لتنظيف النصوص العربية.",
+      en: "Arabic text cleaning platform."
     },
-    tech: ["JavaScript", "HTML5", "CSS3"],
+    tech: ["JavaScript", "HTML", "CSS"],
     link: "https://clean-text-pro-saa-s-platform.vercel.app/",
-    image: "/projects/cleantext.jpg"
+    image: "/projects/cleantext.svg"
   },
-
   {
     id: 4,
     title: {
@@ -99,30 +96,28 @@ const PROJECTS = [
       en: "SkyCast Pro"
     },
     desc: {
-      ar: "تطبيق طقس حديث يعرض الأحوال الجوية بتصميم احترافي.",
-      en: "Modern weather application with a clean UI."
+      ar: "تطبيق توقعات الطقس.",
+      en: "Modern weather application."
     },
-    tech: ["JavaScript", "Weather API", "CSS3"],
+    tech: ["JavaScript", "Weather API"],
     link: "https://sky-cast-pro-weather-app-five.vercel.app/",
-    image: "/projects/skycast.jpg"
+    image: "/projects/skycast.svg"
   },
-
   {
     id: 5,
     title: {
       ar: "WanderStay",
-      en: "WanderStay Hotel Booking"
+      en: "WanderStay"
     },
     desc: {
-      ar: "واجهة حديثة لحجز الفنادق مع تجربة مستخدم احترافية.",
-      en: "Modern hotel booking interface with an elegant user experience."
+      ar: "واجهة حجز فنادق حديثة.",
+      en: "Modern hotel booking website."
     },
-    tech: ["React", "Responsive Design", "CSS3"],
+    tech: ["React", "Responsive Design"],
     link: "https://wander-stay-hotel-booking.vercel.app/",
-    image: "/projects/wanderstay.jpg"
+    image: "/projects/wanderstay.svg"
   }
-]
-
+];
 const SKILLS = ["HTML5", "CSS3", "JavaScript", "React.js", "Firebase", "Git", "Responsive Design", "UI/UX"]
 
 function Navbar({ lang, setLang, t }) {
