@@ -49,28 +49,78 @@ const MY_DATA = {
 const PROJECTS = [
   {
     id: 1,
-    title: { ar: "متجر إلكتروني", en: "E-Commerce Store" },
-    desc: { ar: "متجر كامل بسلة مشتريات ودفع إلكتروني", en: "Full store with shopping cart and payment" },
-    tech: ["React", "Firebase", "Tailwind"],
-    link: "https://subly-naw.vercel.app/",
-    image: "/subly.jpg"
+    title: {
+      ar: "NexaTech - وكالة رقمية",
+      en: "NexaTech Digital Agency"
+    },
+    desc: {
+      ar: "موقع وكالة رقمية حديث يعرض الخدمات والأعمال بتصميم احترافي وسريع.",
+      en: "Modern digital agency website showcasing services and portfolio."
+    },
+    tech: ["React", "Vite", "CSS3"],
+    link: "https://nexa-tech-digital-agency.vercel.app/",
+    image: "/projects/nexatech.jpg"
   },
+
   {
     id: 2,
-    title: { ar: "لوحة تحكم", en: "Admin Dashboard" },
-    desc: { ar: "Dashboard لإدارة البيانات والمستخدمين", en: "Dashboard for managing data and users" },
-    tech: ["React", "Chart.js", "Firebase"],
-    link: "https://wazftk1-bit.github.io/wazftk1/",
-    image: "/wazftk.jpg"
+    title: {
+      ar: "ChatWave Messenger",
+      en: "ChatWave Messenger"
+    },
+    desc: {
+      ar: "تطبيق محادثات فورية يدعم الرسائل في الوقت الحقيقي.",
+      en: "Real-time messaging application with instant chat."
+    },
+    tech: ["React", "Firebase", "Realtime Database"],
+    link: "https://chat-wave-real-time-messenger.vercel.app/",
+    image: "/projects/chatwave.jpg"
   },
+
   {
     id: 3,
-    title: { ar: "تطبيق مهام", en: "Task Manager" },
-    desc: { ar: "تطبيق إدارة مهام مع تذكيرات", en: "Task management app with reminders" },
-    tech: ["React", "LocalStorage", "CSS"],
-    link: "https://gemablusprice-gif.github.io/gemablusprice/",
-    image: "/face10.jpg"
+    title: {
+      ar: "Clean Text Pro",
+      en: "Clean Text Pro"
+    },
+    desc: {
+      ar: "منصة SaaS لتنظيف النصوص العربية وإزالة التشكيل والرموز.",
+      en: "SaaS platform for cleaning Arabic text and removing unwanted characters."
+    },
+    tech: ["JavaScript", "HTML5", "CSS3"],
+    link: "https://clean-text-pro-saa-s-platform.vercel.app/",
+    image: "/projects/cleantext.jpg"
   },
+
+  {
+    id: 4,
+    title: {
+      ar: "SkyCast Pro",
+      en: "SkyCast Pro"
+    },
+    desc: {
+      ar: "تطبيق طقس حديث يعرض الأحوال الجوية بتصميم احترافي.",
+      en: "Modern weather application with a clean UI."
+    },
+    tech: ["JavaScript", "Weather API", "CSS3"],
+    link: "https://sky-cast-pro-weather-app-five.vercel.app/",
+    image: "/projects/skycast.jpg"
+  },
+
+  {
+    id: 5,
+    title: {
+      ar: "WanderStay",
+      en: "WanderStay Hotel Booking"
+    },
+    desc: {
+      ar: "واجهة حديثة لحجز الفنادق مع تجربة مستخدم احترافية.",
+      en: "Modern hotel booking interface with an elegant user experience."
+    },
+    tech: ["React", "Responsive Design", "CSS3"],
+    link: "https://wander-stay-hotel-booking.vercel.app/",
+    image: "/projects/wanderstay.jpg"
+  }
 ]
 
 const SKILLS = ["HTML5", "CSS3", "JavaScript", "React.js", "Firebase", "Git", "Responsive Design", "UI/UX"]
