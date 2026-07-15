@@ -1,0 +1,17 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Sun -->
+  <circle cx="42" cy="22" r="10" fill="#FBBF24"/>
+
+  <!-- Sun Rays -->
+  <path d="M42 5V10M42 34V39M25 22H20M64 22H59M30 10L26 6M54 10L58 6M30 34L26 38M54 34L58 38"
+        stroke="#FBBF24"
+        stroke-width="3"
+        stroke-linecap="round"/>
+
+  <!-- Cloud -->
+  <path d="M17 45C17 38.9 21.9 34 28 34C30.2 34 32.3 34.6 34 35.7C36.2 31.8 40.4 29.5 45 30.5C50.5 31.5 54 36.2 54 41.5C54 47.3 49.3 52 43.5 52H27C21.5 52 17 49 17 45Z"
+        fill="white"
+        fill-opacity="0.95"/>
+
+</svg>
